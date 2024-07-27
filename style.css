@@ -1,0 +1,81 @@
+.circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: solid 1px black;
+	margin: 20px;
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.board{
+	display: flex;
+	justify-content: center;
+}
+
+.ac, .dc{
+	border: solid 1px black;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 100px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.poll{
+	display: flex;
+	justify-content: center;
+}
+
+.check, .re{
+	border: solid 1px black;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.ac{
+	background-color: green;
+	color: white;
+}
+.ac:active{
+	background-color: white;
+	color: green;
+}
+
+.dc{
+	background-color: red;
+	color: white;
+}
+.dc:active{
+	background-color: white;
+	color: red;
+}
+
+.dctimes{
+	display: flex;
+	justify-content: center;
+}
+
+.dctext, .min, .add, .times, .re0{
+	font-size: 20px;
+	margin: 20px;
+}
+
+.min, .add, .re0{
+	border-radius: 7px;
+	border: solid 1px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+}
