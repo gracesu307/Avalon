@@ -2,9 +2,11 @@ $(document).ready(function(){
 	var ac = 0;
 	var dc = 0;
 	$(".ac").click(function(){
+		alert("你投了贊成")
 		ac++;
 	});
 	$(".dc").click(function(){
+		alert("你投了反對")
 		dc++;
 	});
 
